@@ -6,3 +6,4 @@
 - vue
 - java
 - c
+- linux
