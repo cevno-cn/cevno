@@ -19,8 +19,19 @@
 	<body>
 		<script type="text/javascript">
 			window.onload = function(){
+				var flag = true;
 				document.getElementById("span").onclick=function(){
-					document.getElementsByTagName("video")[0].style.display = "block";
+					if(flag){
+						document.getElementsByTagName("video")[0].style.display = "block";
+						document.getElementById("t").style.display = "none";
+						document.getElementById("f").style.display = "block";
+						flag = false;
+					}else{
+						document.getElementsByTagName("video")[0].style.display = "none";
+						document.getElementById("t").style.display = "block";
+						document.getElementById("f").style.display = "none";
+						flag = true;
+					}
 				}
 			}
 		</script>
