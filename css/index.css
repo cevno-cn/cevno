@@ -21,6 +21,11 @@ body{
 	position: relative;
 	z-index: 0;
 }
+video{
+	width: 100%;
+	height: 100%;
+	
+}
 .cevno{
 	padding: 5vh 10vw;
 	text-align: right;
