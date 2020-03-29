@@ -42,8 +42,19 @@ video{
 	line-height: 50px;
 }
 #span svg{
-	width: 60%;
-	height: 60%;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 50%;
+	margin-left: -12.5px;
+	top: 50%;
+	margin-top: -12.5px;
+}
+#span svg:nth-child(1){
+	display: block;
+}
+#span svg:nth-child(2){
+	display: none;
 }
 @media (max-width: 900px) {
 	#span{
