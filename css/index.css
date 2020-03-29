@@ -13,7 +13,8 @@ body{
 .con{
 	width: 100%;
 	height: 100%;
-	background-image: url(http://photo.ganto.xyz/203.jpg);
+	/* background-image: url(http://photo.ganto.xyz/203.jpg); */
+	background-image: url(RainierClouds_ENUS_1920x1080_SS1021697089_HD_ZH-CN.mp4);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
