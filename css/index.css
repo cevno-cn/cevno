@@ -13,8 +13,6 @@ body{
 .con{
 	width: 100%;
 	height: 100%;
-	/* background-image: url(/img/RainierClouds_ENUS_SS1021697089_1920x1080_HD_ZH-CN170801398.jpg); */
-	/* background-repeat: no-repeat; */
 	position: relative;
 	z-index: 0;
 	overflow: hidden;
