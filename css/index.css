@@ -48,10 +48,10 @@ video{
 	margin-top: -12.5px;
 }
 #span svg:nth-child(1){
-	display: block;
+	display: none;
 }
 #span svg:nth-child(2){
-	display: none;
+	display: block;
 }
 @media (max-width: 900px) {
 	#span{
