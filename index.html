@@ -23,17 +23,17 @@
 					video = document.getElementsByTagName("video")[0],
 					t = document.getElementById("t"),
 					f = document.getElementById("f");
-				video.pause();
+				video.play();
 				document.getElementById("span").onclick=function(){
 					if(flag){
-						video.play();
-						t.style.display = "none";
-						f.style.display = "block";
-						flag = false;
-					}else{
 						video.pause();
 						t.style.display = "block";
 						f.style.display = "none";
+						flag = false;
+					}else{
+						video.play();
+						t.style.display = "none";
+						f.style.display = "block";
 						flag = true;
 					}
 				}
