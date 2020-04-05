@@ -1,4 +1,4 @@
-html{-webkit-filter: grayscale(100%);}
+/* html{filter: grayscale(100%);} */
 body, .con{
 	margin: 0;
 	padding: 0;
