@@ -98,5 +98,5 @@ a::after{
 	border-radius: 4px;
 }
 a:hover::after{
-	top: 13%;
+	top: 20%;
 }
