@@ -16,6 +16,7 @@ body{
 	height: 100%;
 	position: relative;
 	overflow: hidden;
+	color: white;
 }
 video{
 	position: absolute;
