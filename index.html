@@ -27,11 +27,15 @@
 				document.getElementById("span").onclick=function(){
 					if(flag){
 						video.pause();
+						video.style.filter = "blur(3px)";
+						video.style.transform = "scale(1.1)";
 						t.style.display = "block";
 						f.style.display = "none";
 						flag = false;
 					}else{
 						video.play();
+						video.style.filter = "blur(0px)";
+						video.style.transform = "scale(1)";
 						t.style.display = "none";
 						f.style.display = "block";
 						flag = true;
