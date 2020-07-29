@@ -111,5 +111,6 @@ a:hover::after{
 	text-align: center;
 }
 .footer a{
-	color: block;
+	font-size: 12px;
+	color: #666666;
 }
