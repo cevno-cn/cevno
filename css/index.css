@@ -33,7 +33,7 @@ video{
 	cursor: pointer;
 	position: absolute;
 	right: 20px;
-	bottom: 30px;
+	bottom: 40px;
 	z-index: 999;
 	border-radius: 50%;
 	box-sizing: border-box;
@@ -107,4 +107,5 @@ a:hover::after{
 	position: absolute;
 	bottom: 0;
 	text-align: center;
+	color: block;
 }
