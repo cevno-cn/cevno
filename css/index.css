@@ -62,6 +62,8 @@ video{
 .cevno{
 	padding: 5vh 10vw;
 	text-align: right;
+	position: absolute;
+	right: 0px;
 }
 .cevno a{
 	color: white;
