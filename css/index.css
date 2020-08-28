@@ -107,6 +107,7 @@ a:hover::after{
 	position: absolute;
 	bottom: 0;
 	text-align: center;
+	z-index: -1;
 }
 .footer a{
 	font-size: 12px;
@@ -117,6 +118,8 @@ a:hover::after{
 	height: 100%;
 	display: flex;
 	justify-content: center;
+	position: relative;
+	z-index: -1;
 }
 .img video{
 	display:inline-block;
