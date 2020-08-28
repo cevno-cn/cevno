@@ -19,9 +19,6 @@ body{
 	color: white;
 /* 	background: rgba(0,0,0,0.3); */
 }
-video{
-	
-}
 #span{
 	display: inline-block;
 	width: 40px;
@@ -124,4 +121,5 @@ a:hover::after{
 }
 .img video{
 	display:inline-block;
+	position: absolute;
 }
