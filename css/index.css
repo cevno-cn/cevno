@@ -20,11 +20,7 @@ body{
 /* 	background: rgba(0,0,0,0.3); */
 }
 video{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	transition: all 0.3s;
+	
 }
 #span{
 	display: inline-block;
