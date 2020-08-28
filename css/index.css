@@ -123,4 +123,5 @@ a:hover::after{
 .img video{
 	display:inline-block;
 	position: absolute;
+	transition: all .5s;
 }
