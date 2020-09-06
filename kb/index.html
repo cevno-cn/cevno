@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>通信工程201专升本 - 课表</title>
 		<link rel="icon" type="text/css" href="https://cevno.cn/img/favicon.ico "/>
+		<link rel="stylesheet" type="text/css" href="viewer/viewer.min.css"/>
 		<style type="text/css">
 			*{
 				margin: 0;
@@ -14,15 +15,24 @@
 				width: 100%;
 				height: auto;
 				box-sizing: border-box;
-				border-bottom: 10px dashed #2ab2ab;
+/* 				border-bottom: 10px dashed #2ab2ab; */
 			}
 		</style>
 	</head>
 	<body>
-		<img src="img/kebiao.png" alt="">
-		<img src="img/time.png" alt="">
-		<img src="img/shcoole.jpg" alt="">
-		<img src="img/ditu.jpg" alt="">
-		<img src="img/dktime.png" alt="">
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="viewer/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#jq22').viewer();
+			})
+		</script>
+		<div id="jq22">
+			<img src="img/kebiao.png" alt="">
+			<img src="img/time.png" alt="">
+			<img src="img/shcoole.jpg" alt="">
+			<img src="img/ditu.jpg" alt="">
+			<img src="img/dktime.png" alt="">
+		</div>
 	</body>
 </html>
