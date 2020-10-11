@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 		<title>小胡同学的课表</title>
 		<link rel="icon" type="text/css" href="https://cevno.cn/img/favicon.ico "/>
-		<link rel="stylesheet" type="text/css" href="https://cevno.cn/kb/viewer/viewer.min.css"/>
+		<link rel="stylesheet" type="text/css" href="viewer/viewer.min.css"/>
 		<style type="text/css">
 			*{
 				margin: 0;
@@ -20,21 +20,39 @@
 			}
 			p {
 				text-align: center;
-				background: #2ab2ab;
+				background: #C20C0C;
 				color: white;
-				padding: 10px 0px;
+				padding: 30px 0px;
+			}
+			i {
+			    	font-style: normal;
 			}
 		</style>
 	</head>
 	<body>
 		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js" type="text/javascript" charset="utf-8"></script>
-		<script src="https://cevno.cn/kb/viewer/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="viewer/viewer.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(function(){
 				$('#jq22').viewer();
+				setInterval(function(){
+					var setTime = new Date("2020-09-14 00:00:00").getTime();
+					var nowTime = new Date().getTime();
+					var myDate = nowTime - setTime;
+					var days=Math.floor(myDate / (24*3600*1000)) // 计算出相差天数
+					var oneWeek = Math.floor(days / 7)+1;
+					$("b").html(oneWeek);
+					var ss = oneWeek % 2;
+					if(ss == 0){
+						$("i").html("双");
+					}else{
+						$("i").html("单");
+					}
+				},1000)
 			})
 		</script>
 		<div id="jq22">
+			<p>2020-09-14为第一周单周<br>现在是第<b></b>周 <i></i>周</p>
 			<img src="kb.png" alt="">
 		</div>
 	</body>
