@@ -37,7 +37,7 @@
 				$('#jq22').viewer();
 				setInterval(function(){
 					var setTime = new Date("2021-03-02 00:00:00").getTime();
-					var nowTime = new Date().getTime();
+					var nowTime = new Date("2021-03-07 00:00:00").getTime();
 					var myDate = nowTime - setTime;
 					var days=Math.floor(myDate / (24*3600*1000)) // 计算出相差天数
 					var oneWeek = Math.floor(days / 7)+1;
