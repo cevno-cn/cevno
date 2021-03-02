@@ -36,7 +36,7 @@
 			$(function(){
 				$('#jq22').viewer();
 				setInterval(function(){
-					var setTime = new Date("2021-03-02 00:00:00").getTime();
+					var setTime = new Date("2021-03-01 00:00:00").getTime(); // 输入开学这周的周一日期
 					var nowTime = new Date("2021-03-08 00:00:00").getTime();
 					var myDate = nowTime - setTime;
 					var days=Math.floor(myDate / (24*3600*1000)) // 计算出相差天数
